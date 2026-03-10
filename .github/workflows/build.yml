@@ -34,6 +34,9 @@ jobs:
           ref: ${{ github.head_ref }}
           token: ${{ steps.get-github-app-token.outputs.token }}
 
+      - name: Enable Corepack
+        run: corepack enable
+
       - uses: actions/setup-node@v6
         with:
           node-version-file: '.nvmrc'
@@ -41,12 +44,15 @@ jobs:
           cache: yarn
 
       - name: Install dependencies
-        run: yarn
+        run: yarn install --immutable
+
+      - name: Codegen
+        run: yarn codegen
 
       - name: Reformat
         run: |
           yarn prettier --write .
-          yarn lint --fix
+          yarn lint --fix || true # Ignore errors and leave them to the ESLint workflow
 
       - name: Build
         run: yarn build
@@ -54,7 +60,7 @@ jobs:
       - name: Bundle
         run: yarn bundle
 
-      - uses: CatChen/check-git-status-action@v1
+      - uses: CatChen/check-git-status-action@v2
         id: check-git-status
         with:
           fail-if-not-clean: ${{ github.actor != 'dependabot[bot]' || github.actor_id != 49699333 }}
