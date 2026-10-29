@@ -35,6 +35,9 @@ export type BotAppSlugQuery = {
         __typename: 'AddedToProjectV2Event';
         id: string;
     } | {
+        __typename: 'AddedToStackEvent';
+        id: string;
+    } | {
         __typename: 'App';
         id: string;
     } | {
@@ -498,6 +501,21 @@ export type BotAppSlugQuery = {
         __typename: 'ParentIssueRemovedEvent';
         id: string;
     } | {
+        __typename: 'PendingAssigneeSuggestion';
+        id: string;
+    } | {
+        __typename: 'PendingCloseSuggestion';
+        id: string;
+    } | {
+        __typename: 'PendingFieldSuggestion';
+        id: string;
+    } | {
+        __typename: 'PendingLabelSuggestion';
+        id: string;
+    } | {
+        __typename: 'PendingTypeSuggestion';
+        id: string;
+    } | {
         __typename: 'PinnedDiscussion';
         id: string;
     } | {
@@ -640,6 +658,9 @@ export type BotAppSlugQuery = {
         id: string;
     } | {
         __typename: 'RemovedFromProjectV2Event';
+        id: string;
+    } | {
+        __typename: 'RemovedFromStackEvent';
         id: string;
     } | {
         __typename: 'RenamedTitleEvent';
