@@ -1708,7 +1708,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@humanfs/node@npm:^0.16.6":
+"@humanfs/node@npm:^0.16.8":
   version: 0.16.8
   resolution: "@humanfs/node@npm:0.16.8"
   dependencies:
@@ -2441,11 +2441,11 @@ __metadata:
   linkType: hard
 
 "@types/node@npm:*, @types/node@npm:^26.0.0":
-  version: 26.6.5
-  resolution: "@types/node@npm:26.6.5"
+  version: 26.6.6
+  resolution: "@types/node@npm:26.6.6"
   dependencies:
     undici-types: "npm:~8.9.0"
-  checksum: 10c0/4f791f69466ace7842c09e7bef96cb1ddbb65cf3db916ef7e84f0e2b2a17220b6b816dc7539d01520cadfb17ed7169b8214910900493e0a83be8bc7d124ec20a
+  checksum: 10c0/5cb63f644f6e85a257a9cd2403cbcbe196760e2a35fd3ec9fb8b5cff663e14cc832b198cc17b53f870a2e30900ed45a1fb3f53e6589aba26b8e8c484aa672053
   languageName: node
   linkType: hard
 
@@ -3311,8 +3311,8 @@ __metadata:
   linkType: hard
 
 "eslint@npm:^10.0.0":
-  version: 10.13.0
-  resolution: "eslint@npm:10.13.0"
+  version: 10.14.0
+  resolution: "eslint@npm:10.14.0"
   dependencies:
     "@eslint-community/eslint-utils": "npm:^4.8.0"
     "@eslint-community/regexpp": "npm:^4.12.2"
@@ -3320,7 +3320,7 @@ __metadata:
     "@eslint/config-helpers": "npm:^0.7.0"
     "@eslint/core": "npm:^1.2.1"
     "@eslint/plugin-kit": "npm:^0.7.3"
-    "@humanfs/node": "npm:^0.16.6"
+    "@humanfs/node": "npm:^0.16.8"
     "@humanwhocodes/module-importer": "npm:^1.0.1"
     "@humanwhocodes/retry": "npm:^0.4.2"
     "@types/estree": "npm:^1.0.6"
@@ -3341,7 +3341,7 @@ __metadata:
     imurmurhash: "npm:^0.1.4"
     is-glob: "npm:^4.0.0"
     json-stable-stringify-without-jsonify: "npm:^1.0.1"
-    minimatch: "npm:^10.2.5"
+    minimatch: "npm:^10.2.6"
     natural-compare: "npm:^1.4.0"
     optionator: "npm:^0.9.3"
   peerDependencies:
@@ -3351,7 +3351,7 @@ __metadata:
       optional: true
   bin:
     eslint: bin/eslint.js
-  checksum: 10c0/4a28e85de458f13306d30f07df21b58109056bd8bd691b6158952d95e126cf742db2eb09562e3f1c1cc0154ee44dedc789f8ced8d0d8da48e82a689aa9cb1c0d
+  checksum: 10c0/738cdd0a1aa37b8bddefb5c89206f9f202540e8fce57f7ef82649b5bdf0acd67f7b9f2724f538b11149bd9bfdd14605125568cf73b319baec007866677af72dd
   languageName: node
   linkType: hard
 
@@ -3768,16 +3768,16 @@ __metadata:
   linkType: hard
 
 "graphql@npm:^15.5.0 || ^16.0.0 || ^17.0.0, graphql@npm:^17.0.1":
-  version: 17.0.2
-  resolution: "graphql@npm:17.0.2"
-  checksum: 10c0/766546216b891439ed09fd8584963df2013e26f2f79f096036eaaa2788c38964e049c8a142d68e3afdabdd8bbe70042639e83f0f4b82edbc7c6850421f072bb6
+  version: 17.1.0
+  resolution: "graphql@npm:17.1.0"
+  checksum: 10c0/7bebb1c13c352577c14e10accd38ce51c642bf8e7bfb474c49790c893636f8abf7d61802c47f3ce413703b0a669220c142de9aed67b3e961da3c00d005c9cfd3
   languageName: node
   linkType: hard
 
 "graphql@npm:^16.0.0":
-  version: 16.14.2
-  resolution: "graphql@npm:16.14.2"
-  checksum: 10c0/a95a96961eaff55cc9fe9d31fae6f33499ac988b972d07ea5085024cb1333f515b902f376e7393a5489aa82200a8aff3eb96580e4d1b69d702ed19b6eb1ce97a
+  version: 16.15.0
+  resolution: "graphql@npm:16.15.0"
+  checksum: 10c0/b97c78a02dab6392cdc492e78290bca479b5881dbeeefaed79cc88128b0e9a810feea043da61c5cd086f1af645dc9c46d61ed5297995031d8542a11c94f7cd0f
   languageName: node
   linkType: hard
 
@@ -4326,7 +4326,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"minimatch@npm:^10.0.0, minimatch@npm:^10.2.2, minimatch@npm:^10.2.4, minimatch@npm:^10.2.5":
+"minimatch@npm:^10.0.0, minimatch@npm:^10.2.2, minimatch@npm:^10.2.4, minimatch@npm:^10.2.6":
   version: 10.2.6
   resolution: "minimatch@npm:10.2.6"
   dependencies:
